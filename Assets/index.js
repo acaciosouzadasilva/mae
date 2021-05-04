@@ -28,8 +28,8 @@ const titulo = document.querySelector('.titulo-principal');
 typeWrite(titulo);
 
 let img = Math.floor((Math.random(1)*(imagens.length-1)));
-console.log(imagens.length)
-console.log(imagens[img])
+//console.log(imagens.length)
+//console.log(imagens[img])
 const fundo = (img)=>{
     
     document.body.style.backgroundImage=`url(./Assets/${imagens[img]})` ;
